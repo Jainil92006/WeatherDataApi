@@ -9,10 +9,5 @@ def getdata(place,forecast_days,):
     no = 8 * forecast_days
     filtered_data = filtered_data[:no]
     return filtered_data
-
-
-
-
-
 if __name__=="__main__":
     print(getdata(place="tokyo",forecast_days=3))
